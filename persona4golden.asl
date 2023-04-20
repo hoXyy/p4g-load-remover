@@ -1,9 +1,9 @@
-state("P4G", "Remaster 1.0")
+state("P4G", "Remaster")
 {
 	short loading: 0x51BCD12;
 }
 
-state("p4pc_DT_mc", "Remaster 1.0")
+state("p4pc_DT_mc", "Remaster")
 {
 	short loading: 0x57885D2;
 }
@@ -20,7 +20,7 @@ init
 		case 931864576: 
 		case 913334272:
 		case 884142080: 
-			version = "Remaster 1.0";
+			version = "Remaster";
 			break;
 		case 677085184:
 			version = "Legacy Steam";
