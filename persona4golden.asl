@@ -17,6 +17,7 @@ init
 {
 	switch (game.MainModule.ModuleMemorySize)
 	{	
+		case 931864576: 
 		case 913334272:
 		case 884142080: 
 			version = "Remaster 1.0";
